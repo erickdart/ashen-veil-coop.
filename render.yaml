@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ashen-veil-coop
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: GAME
+        value: ASHEN_VEIL_0_47_MP.html

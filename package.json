@@ -1,0 +1,14 @@
+{
+  "name": "ashen-veil-coop-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor WebSocket para o multiplayer cooperativo de ASHEN VEIL 0.47",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
